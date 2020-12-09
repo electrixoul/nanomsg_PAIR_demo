@@ -7,7 +7,6 @@ find_package( nanomsg QUIET )
 set(SIMULATOR_DIR "./")
 
 include_directories("/usr/include")
-include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_library(
         json_lib
